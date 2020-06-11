@@ -1,0 +1,116 @@
+body {
+    background-color:#ffffff;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;   
+    background-color: #ffffff;
+    
+}
+
+.container .copirith {
+    display: flex;
+    align-content: a;
+    color: blue;
+    align-content: center;
+}
+
+.imageLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #54585b;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.imageLogin span {
+    padding: 0;
+    margin: 0 80px 0 0;
+    color: #ffffff;
+    text-align: right;
+    font-size: 48px;
+    font: bolder;
+}
+
+.imageLogin strong {
+    margin: 0 80px 0 0;
+    font-size: 55px;
+    color: #ffffff;
+    font: bold;
+}
+
+.contentLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 110px;
+}
+
+.contentLogin .forgotLogin {
+    display: flex;
+    color: #9b9b9b;
+    margin: 5px 0 0 5px;
+    padding-left: 5px;
+}
+/* teste para verificar se iria colidir com a class do component css do nextjs */
+/*.error {
+    color: yellowgreen;
+    background-color: white;
+    margin: 5px ;
+}*/
+
+.contentLogin .login {
+    background-color: #ffffff;
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 5px 20px 5px;
+}
+
+.formConroll {
+    display: flex;
+    flex-direction: column;
+}
+
+.formConroll h2 {
+    font-size: 25px;
+    color: #b4b4b4;
+}
+
+
+.formConroll .inputControll {
+    margin: 25px 5px 0 0px;
+    border-radius: 25px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    border: 0.5px solid #bfbfbd;
+    font-size: 18px;
+    color: #7a7c7c;
+    
+}
+
+
+::-webkit-input-placeholder {
+    color: #9b9b9b;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: red;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #9b9b9b;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: red;  
+ }

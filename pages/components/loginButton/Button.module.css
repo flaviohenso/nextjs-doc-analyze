@@ -1,0 +1,15 @@
+.buttonLogin {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    background-color: #1855ae;
+    border-radius: 25px;
+    border-color: #1855ae;
+    width: 130px;
+    height: 35px;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 0 0 0 10;
+    margin: 40px 0 0 0;
+}
+
