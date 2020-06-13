@@ -11,7 +11,7 @@ const HomePage = () => {
                 <Logo />
                 <span>Owners</span>
                 <strong>Questionnaire</strong>
-                <div class="copirith">
+                <div className="copirith">
                     <p>© 2018 Do Up English.</p><p> Todos os direitos reservados a Do Up English</p>
                 </div>
             </div>

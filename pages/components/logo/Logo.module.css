@@ -1,6 +1,6 @@
 .logoLogin {
     display: flex;
-    background: url(../../../image/mercedes-benz.png) center;
+    background: url(../../../public/mercedes-benz.png) center;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: flex-end;
