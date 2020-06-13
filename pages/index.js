@@ -21,6 +21,9 @@ const HomePage = () => {
                     <Link href="/pedidos">
                         <a>Forgot your login?</a>
                     </Link>
+                    <Link href="/about">
+                        <a>useState</a>
+                    </Link>
                     <Link href="/menu">
                         <a>useEffect</a>
                     </Link>
